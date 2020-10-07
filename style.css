@@ -73,8 +73,6 @@ body {
 }
 
 footer {
-
-    padding-top: 200px;
     background-color: blue;
-    height: 200px;
+    height: 70px;
 }
