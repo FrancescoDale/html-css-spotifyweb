@@ -56,6 +56,11 @@ body {
     justify-content: flex-end;
 }
 
+.item {
+    height: 2000px;
+    width: 500px;
+    background-color: white;
+}
 
 
 /************************** CONTENT ********************/
