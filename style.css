@@ -15,7 +15,7 @@ body {
     height: 100%;
 }
 
-/****************************************************/
+/********************* SIDEBAR*******************************/
 
 .side {
     width: 300px;
@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     background-color: red;
     padding: 20px 20px;
+    color: #FFF;
 }
 
 .side::after {
@@ -31,6 +32,33 @@ body {
     clear: both;
     display: table;
 }
+
+.sidebar-header img {
+
+}
+
+.sidebar-link>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.sidebar-link, .sidebar-panel {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+/************************** CONTENT ********************/
 
 .content {
     float: right;
