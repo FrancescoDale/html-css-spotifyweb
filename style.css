@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: red;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
     color: #FFF;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .sidebar-header img {
-
+    width: 100%;
 }
 
 .sidebar-link>a {
