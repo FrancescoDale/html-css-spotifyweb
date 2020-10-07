@@ -4,17 +4,38 @@
     box-sizing: border-box;
 }
 
+
+main {
+    background-color: blue;
+    width: calc();
+}
+
 #sidebar {
     position: fixed;
     left: 0;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    background-color: red;
+    color: #FFF;
+    background-color: black;
+    height:
 
 }
 
-#sidebar  .sidebar-menu1>a {
+#sidebar .sidebar-menu1>a {
+    margin-bottom: 15px;
     display: block;
-    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+
+}
+
+#sidebar .sidebar-menu2>span, .sidebar-footer>span {
+    display: block;
+    font-size: 15px;
+}
+
+#sidebar .sidebar-footer {
+    justify-content: flex-end;
 }
