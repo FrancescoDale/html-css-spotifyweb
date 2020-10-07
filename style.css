@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#sidebar {
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: red;
+
+}
+
+#sidebar  .sidebar-menu1>a {
+    display: block;
+    margin-bottom: 20px;
+}
