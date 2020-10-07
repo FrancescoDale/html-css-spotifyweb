@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+}
 
-
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
 
 
 
