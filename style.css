@@ -12,7 +12,7 @@
 
 section {
     height: calc(100vh - 150px);
-    width: calc();
+    width: calc(100% - 120px);
     display: flex;
     overflow: scroll;
     /* flex-grow: 1; */
@@ -82,10 +82,12 @@ h1, h2 {
 /*******************MAIN SECTION*********************************/
 
 nav {
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
     font-size: 14px;
     margin-left: 50px;
-    padding-bottom: 25px;
+    padding: 50px 0;
 }
 
 nav ul>li {
@@ -148,6 +150,7 @@ justify-content: space-between;
 
 
 @media screen and (min-width: 992px) {
+
     aside { width: 250px; }
 
     #hamburger-menu { display: none;}
